@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Agencia Web</title>
+
+  <!-- Google Fonts: Inter (variable font) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"> :contentReference[oaicite:1]{index=1}
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">TuAgencia</div>
+      <nav class="nav" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#portfolio">Portafolio</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle">☰</button>
+    </div>
+  </header>
+
+  <section class="hero fade-in">
+    <div class="container">
+      <h1>Diseño Web Creativo y Responsivo</h1>
+      <p>Landing pages, e‑commerce y soluciones a medida.</p>
+      <a href="#contact" class="btn-primary">Contáctanos</a>
+    </div>
+  </section>
+
+  <section id="services" class="services container fade-in">
+    <h2>Servicios</h2>
+    <div class="services-grid">
+      <div class="service-card">Landing Pages</div>
+      <div class="service-card">E‑commerce</div>
+      <div class="service-card">Diseño a Medida</div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio container fade-in">
+    <h2>Portafolio</h2>
+    <div class="portfolio-grid">
+      <img src="img/proyecto1.jpg" alt="Proyecto 1" loading="lazy">
+      <img src="img/proyecto2.jpg" alt="Proyecto 2" loading="lazy">
+      <img src="img/proyecto3.jpg" alt="Proyecto 3" loading="lazy">
+    </div>
+  </section>
+
+  <section id="contact" class="contact container fade-in">
+    <h2>Contacto</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Tu Nombre" required>
+      <input type="email" placeholder="Tu Email" required>
+      <textarea placeholder="Tu Mensaje" required></textarea>
+      <button type="submit" class="btn-primary">Enviar</button>
+    </form>
+  </section>
+
+  <footer class="footer container">
+    <p>© 2025 Tu Agencia Web. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

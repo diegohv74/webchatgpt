@@ -105,34 +105,50 @@ body {
   font-size: 2rem;
 }
 
-/* Hero */
+/* hero */
 .hero {
-  height: 100vh;
-  background: linear-gradient(to bottom right, #ffffff, #f0f0f0);
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding: 100px 1rem 80px;
+  min-height: 80vh;
+  background: linear-gradient(to bottom right, #ffffff, #f1f1f1);
   text-align: center;
-  padding: 0 1rem;
 }
+
+.hero-content {
+  max-width: 800px;
+}
+
 .hero h1 {
-  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
   margin-bottom: 1rem;
+  color: #222;
 }
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
 .btn-primary {
   display: inline-block;
-  text-decoration: none;
   background: #007bff;
   color: #fff;
-  padding: 12px 28px;
-  font-weight: 600;
-  font-size: 1rem;
+  padding: 14px 32px;
+  font-size: 1.1rem;
   border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
   transition: background 0.3s ease, transform 0.2s ease;
-  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
 }
+
 .btn-primary:hover {
   background: #0056b3;
-  transform: scale(1.03);
+  transform: translateY(-3px);
 }
 
 
